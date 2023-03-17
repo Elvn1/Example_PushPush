@@ -70,6 +70,7 @@ public class GameMgr : MonoBehaviour
 
     public void Retry()
     {
-        Debug.Log("¿ÁΩ√¿€");
+        Debug.Log("ReTry");
+        mapGenerator.MapDestroy(curLv);
     }
 }
