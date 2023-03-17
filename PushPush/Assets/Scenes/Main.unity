@@ -159,7 +159,7 @@ MonoBehaviour:
   correctCnt: 0
   inCorrectCnt: 0
   curLv: 1
-  maxLv: 3
+  maxLv: 11
   mapGenerator: {fileID: 1288580423}
   scoreText: {fileID: 0}
   stageNumText: {fileID: 0}
