@@ -9,9 +9,12 @@ public class PlayerController : MonoBehaviour
     RaycastHit hit2;
 
     public GameMgr gameMgr;
+    public Animator anim;
+    public Transform Slime;
     void Start()
     {
         gameMgr = GameObject.Find("GameMgr").GetComponent<GameMgr>();
+        //Slime = GameObject.Find("Slime").GetComponentInChildren<Transform>();
     }
 
 
@@ -19,18 +22,22 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            
             CheckOthers(Vector3.left);
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
+            
             CheckOthers(Vector3.right);
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
+
             CheckOthers(Vector3.forward);
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
+
             CheckOthers(Vector3.back);
         }
     }
