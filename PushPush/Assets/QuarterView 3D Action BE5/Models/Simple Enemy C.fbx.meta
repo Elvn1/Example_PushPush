@@ -1,23 +1,59 @@
 fileFormatVersion: 2
 guid: 4bdf630ee339368429c99c5c922b08ca
 ModelImporter:
-  serializedVersion: 19301
-  internalIDToNameTable:
-  - first:
-      74: 4723146814002874508
-    second: Attack
-  - first:
-      74: 6059336001588132254
-    second: Die
-  - first:
-      74: -8945691123924629249
-    second: Idle
-  - first:
-      74: 8349542763059015795
-    second: Walk
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BodyDown
+    100002: BodyUpper
+    100004: Bone_Body
+    100006: Bone_Foot_L
+    100008: Bone_Foot_L_end
+    100010: Bone_Foot_R
+    100012: Bone_Foot_R_end
+    100014: Bone_Head
+    100016: Bone_Head_end
+    100018: Bone_L
+    100020: Bone_Neck
+    100022: Bone_R
+    100024: LeftFoot
+    100026: RightFoot
+    100028: //RootNode
+    400000: BodyDown
+    400002: BodyUpper
+    400004: Bone_Body
+    400006: Bone_Foot_L
+    400008: Bone_Foot_L_end
+    400010: Bone_Foot_R
+    400012: Bone_Foot_R_end
+    400014: Bone_Head
+    400016: Bone_Head_end
+    400018: Bone_L
+    400020: Bone_Neck
+    400022: Bone_R
+    400024: LeftFoot
+    400026: RightFoot
+    400028: //RootNode
+    2100000: Simple Enemy C_material
+    2300000: BodyDown
+    2300002: BodyUpper
+    2300004: LeftFoot
+    2300006: RightFoot
+    3300000: BodyDown
+    3300002: BodyUpper
+    3300004: LeftFoot
+    3300006: RightFoot
+    4300000: BodyDown
+    4300002: BodyUpper
+    4300004: LeftFoot
+    4300006: RightFoot
+    7400000: Attack
+    7400002: Die
+    7400004: Idle
+    7400006: Walk
+    9500000: //RootNode
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -46,7 +82,6 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack
       takeName: Armature|Attack
-      internalID: 0
       firstFrame: 0
       lastFrame: 25
       wrapMode: 0
@@ -75,7 +110,6 @@ ModelImporter:
     - serializedVersion: 16
       name: Die
       takeName: Armature|Die
-      internalID: 0
       firstFrame: 0
       lastFrame: 18
       wrapMode: 0
@@ -104,7 +138,6 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Armature|Idle
-      internalID: 0
       firstFrame: 0
       lastFrame: 299
       wrapMode: 0
@@ -133,7 +166,6 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Armature|Walk
-      internalID: 0
       firstFrame: 0
       lastFrame: 19
       wrapMode: 0
@@ -166,28 +198,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -196,10 +225,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -209,16 +238,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
