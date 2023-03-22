@@ -9,7 +9,7 @@ public class EnemyMaker : MonoBehaviour
     public float coolTime;
     void Start()
     {
-        coolTime = Random.Range(1.0f, 3.0f);
+        coolTime = Random.Range(2.0f, 5.0f);
     }
 
 
