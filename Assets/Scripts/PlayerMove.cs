@@ -12,6 +12,8 @@ public class PlayerMove : MonoBehaviour
     public GameObject gameover;
     public GameObject hitEffect;
     public Slider hpBar;
+    public Jun_TweenRuntime junL;
+    public Jun_TweenRuntime junR;
     
 
     void Start()
@@ -38,6 +40,7 @@ public class PlayerMove : MonoBehaviour
         if (transform.position.x <= -limitX)
         {
             transform.position = new Vector3(-limitX, 0, 0);
+            
         }
     }
     public void RightMove()
@@ -46,6 +49,7 @@ public class PlayerMove : MonoBehaviour
         if(transform.position.x >= limitX)
         {
             transform.position = new Vector3(limitX, 0, 0);
+            
         }
     }
 
